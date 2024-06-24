@@ -87,10 +87,12 @@ div{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: auto .3rem;
+        padding:auto .3rem;
      }
     ul li{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         padding: .6rem .3rem;
     }
@@ -102,7 +104,7 @@ div{
     }
     .circular2{
         border-radius: 50%; 
-        width: 2%;
+        width: 5%;
         height: auto;
     }
 }
