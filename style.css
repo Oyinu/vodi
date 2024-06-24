@@ -6,8 +6,10 @@
  }
  header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: auto 3rem;
+    background-color: yellow;
  }
  ul{
     display: flex;
@@ -16,16 +18,27 @@
  }
 ul li{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 2rem 1rem;
 }
 ul li a{
     font-size: 2.2rem;
-    color: orange;
+    color: orangered;
 }
-
-
+#home{
+    background-color: yellow;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular2{
+    border-radius: 50%; 
+    width: 2%;
+    height: auto;
+}
 
 
 
@@ -57,6 +70,13 @@ ul li a{
 
 
 @media (max-width:768px) {
+    header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: auto 2rem;
+        background-color: yellow;
+     }
     .circular{
         border-radius: 50%; 
         width: 15%;
@@ -77,5 +97,11 @@ ul li a{
     ul li a{
         font-size: 1.5rem;
         color: orange;
+        margin: 2rem auto;
+    }
+    .circular2{
+        border-radius: 50%; 
+        width: 2%;
+        height: auto;
     }
 }
