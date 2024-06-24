@@ -63,10 +63,15 @@ ul li a{
         height: auto;
         margin-left:10% ;
     }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
     ul li{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         padding: .6rem .3rem;
     }
     ul li a{
